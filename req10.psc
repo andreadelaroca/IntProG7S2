@@ -5,7 +5,7 @@ Algoritmo req10
 	leer cantprod
 	Escribir "Dime el precio unitario del producto (Dólares): "
 	leer precuni
-	desc=(cantprod*precuni)
-	montof=desc-(desc*0.1)
+	desc=(cantprod*precuni)*0.1
+	montof=(cantprod*precuni)-desc
 	Escribir "El monto final es de $", montof
 FinAlgoritmo

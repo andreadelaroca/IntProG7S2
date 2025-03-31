@@ -1,16 +1,16 @@
-//calculo del promedio de un estudiante
+// calculo del promedio de un estudiante
 Algoritmo req9
-	definir asig1, asig2, asig3, asig4, asig5, prom Como Real
-	escribir "Dime tu calificación en la Asignatura 1: "
-	leer asig1
-	escribir "Dime tu calificación en la Asignatura 2: "
-	leer asig2
-	escribir "Dime tu calificación en la Asignatura 3: "
-	leer asig3
-	escribir "Dime tu calificación en la Asignatura 4 "
-	leer asig4
-	escribir "Dime tu calificación en la Asignatura 5: "
-	leer asig5
-	prom=redon((asig1+asig2+asig3+asig4+asig5)/5)
-	Escribir "El promedio del estudiante es ", prom
+	Definir asig1, asig2, asig3, asig4, asig5, prom Como Real
+	Escribir 'Dime tu calificación en la Asignatura 1: '
+	Leer asig1
+	Escribir 'Dime tu calificación en la Asignatura 2: '
+	Leer asig2
+	Escribir 'Dime tu calificación en la Asignatura 3: '
+	Leer asig3
+	Escribir 'Dime tu calificación en la Asignatura 4 '
+	Leer asig4
+	Escribir 'Dime tu calificación en la Asignatura 5: '
+	Leer asig5
+	prom <- redon((asig1+asig2+asig3+asig4+asig5)/5)
+	Escribir 'El promedio del estudiante es ', prom
 FinAlgoritmo
