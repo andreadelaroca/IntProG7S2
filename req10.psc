@@ -3,9 +3,9 @@ Algoritmo req10
 	definir cantprod, precuni, montof, desc Como Real
 	Escribir "Dime la cantidad de productos: "
 	leer cantprod
-	Escribir "Dime el precio unitario del producto (Dólares): "
+	Escribir "Dime el precio unitario del producto (DÃ³lares): "
 	leer precuni
-	desc=(cantprod*precuni)
-	montof=desc-(desc*0.1)
+	desc=(cantprod*precuni)*0.1
+	montof=(cantprod*precuni)-desc
 	Escribir "El monto final es de $", montof
 FinAlgoritmo
